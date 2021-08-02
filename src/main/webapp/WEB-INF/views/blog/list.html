@@ -14,6 +14,7 @@
 <p>
     <a href="/blogs/create-blog">Create new customer</a>
 </p>
+<!--<a th:href="@{/logout}">Logout</a>-->
 <p>
     <a href="/category/list">Category</a>
 </p>
@@ -42,5 +43,6 @@
     <span th:text="${blogs.number + 1}"></span>/<span th:text="${blogs.totalPages}"></span>
     <a th:href="@{'/blogs/list'(page=${blogs.number + 1})}" th:if="${blogs.hasNext()}">Next</a>
 </div>
+<a th:href="@{/logout}">Logout</a>
 </body>
 </html>

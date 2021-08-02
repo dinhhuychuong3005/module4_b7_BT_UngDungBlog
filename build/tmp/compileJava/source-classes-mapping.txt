@@ -1,24 +1,32 @@
-com/codegym/config/AppInit.java
- com.codegym.config.AppInit
-com/codegym/repository/ICategoryRepository.java
- com.codegym.repository.ICategoryRepository
 com/codegym/service/impl/CategoryService.java
  com.codegym.service.impl.CategoryService
-com/codegym/config/AppConfig.java
- com.codegym.config.AppConfig
 com/codegym/repository/IBlogRepository.java
  com.codegym.repository.IBlogRepository
 com/codegym/controller/BlogController.java
  com.codegym.controller.BlogController
-com/codegym/service/impl/BlogService.java
- com.codegym.service.impl.BlogService
 com/codegym/service/IBlogService.java
  com.codegym.service.IBlogService
-com/codegym/service/ICategoryService.java
- com.codegym.service.ICategoryService
 com/codegym/model/Blog.java
  com.codegym.model.Blog
 com/codegym/model/Category.java
  com.codegym.model.Category
+com/codegym/fomatter/CategoryFormatter.java
+ com.codegym.fomatter.CategoryFormatter
+com/codegym/config/AppInit.java
+ com.codegym.config.AppInit
+com/codegym/repository/ICategoryRepository.java
+ com.codegym.repository.ICategoryRepository
+com/codegym/security/SecurityConfig.java
+ com.codegym.security.SecurityConfig
+com/codegym/config/AppConfig.java
+ com.codegym.config.AppConfig
 com/codegym/controller/CategoryController.java
  com.codegym.controller.CategoryController
+com/codegym/security/SecurityInit.java
+ com.codegym.security.SecurityInit
+com/codegym/service/ICategoryService.java
+ com.codegym.service.ICategoryService
+com/codegym/controller/HomeController.java
+ com.codegym.controller.HomeController
+com/codegym/service/impl/BlogService.java
+ com.codegym.service.impl.BlogService
